@@ -94,11 +94,6 @@ public class Calculadora extends JFrame {
                 btnRestarActionPerformed(evt);
             }
         });
-        btnRestar.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent evt) {
-                btnRestarActionPerformed(evt);
-            }
-        });
         btnIgual.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
                 btnIgualActionPerformed(evt);
